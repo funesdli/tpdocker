@@ -8,3 +8,7 @@ echo -e "\nnom dockerfile : $1\n"
 docker build -t css/$1 - < $1
 docker pull mysql/mysql-server
 echo -e "\nnom de l'image : css/$1\n"
+
+mkdir /srv/wordpress
+mkdir /srv/wordpress/db
+mkdir /srv/wordpress/statics
