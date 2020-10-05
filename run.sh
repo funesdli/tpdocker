@@ -19,4 +19,3 @@ docker run --name tp-phpmydamin -d --link tp-mysql:db -p 8081:80 phpmyadmin/phpm
 #ip
 echo -e '\n'
 hostname -I | awk '{print $2}'
-echo -e "port : 80\n"
