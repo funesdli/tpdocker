@@ -1,7 +1,5 @@
 # tpdocker Lisandro Funes de la Vega
 
-prérequis : mettre les fichiers dans un répertoire "test" 
-
 commandes: 
 
 bash build.sh DOCKERFILE
